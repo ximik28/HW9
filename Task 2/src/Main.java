@@ -12,10 +12,10 @@ public class Main {
         inspectNum();
     }
 
-    static int inputNum() {
+    static void inputNum() {
         System.out.println("Введите целое число:");
         a = new Scanner(System.in).nextInt();
-        return a;
+
     }
     static void inspectNum() {
         boolean isRes;
